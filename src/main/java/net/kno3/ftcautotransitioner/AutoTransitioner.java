@@ -40,7 +40,7 @@ public class AutoTransitioner extends Thread {
                         reset(); //Reset the AutoTransitioner
                     }
                 }
-                Thread.sleep(50); //Sleep 50 seconds to minimize performance impact to the rest of your program
+                Thread.sleep(50); //Sleep 50 milliseconds to minimize performance impact to the rest of your program
             }
         } catch (InterruptedException ex) {
             Log.e("RCActivity", "AutoTransitioner shutdown, thread interrupted");
